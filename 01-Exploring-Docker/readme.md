@@ -60,7 +60,7 @@ After making changes inside the running container, we can save those changes as 
 
 **Command:**
 ```bash
-docker commit my-Apache-server my-Apache-image:v1
+docker commit my-Apache-server my-apache-image:v1
 ```
 
 ![Committing the container](https://github.com/user-attachments/assets/49e60dc2-6ad8-4245-89c7-90890c4dc045)
@@ -87,7 +87,7 @@ docker rmi <image-id>
 |---------------------------------|--------------------------------------------------------------|
 | Pull image                      | `docker pull httpd:latest`                                   |
 | Run container (detached + port) | `docker run -d -p 8080:80 --name my-Apache-server httpd`     |
-| Commit container to image       | `docker commit my-Apache-server my-Apache-image:v1`          |
+| Commit container to image       | `docker commit my-Apache-server my-apache-image:v1`          |
 | Remove image                    | `docker rmi <image-id>`                                      |
 
 ---
